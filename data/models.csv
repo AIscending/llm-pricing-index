@@ -1,0 +1,23 @@
+model_id,display_name,provider,category,price_prompt_per_1m,price_completion_per_1m,price_blended_per_1m,context_length
+google/gemini-2.0-flash,Gemini 2.0 Flash,Google,efficiency,0.075,0.3,0.1312,1048576
+meta-llama/llama-4-scout,Llama 4 Scout,Meta,open_source,0.08,0.3,0.135,327680
+meta-llama/llama-3.3-70b-instruct,Llama 3.3 70B,Meta,open_source,0.1,0.32,0.155,131072
+mistralai/mistral-small,Mistral Small,Mistral,efficiency,0.15,0.6,0.2625,262144
+meta-llama/llama-4-maverick,Llama 4 Maverick,Meta,open_source,0.15,0.6,0.2625,1048576
+deepseek/deepseek-chat-v3-0324,DeepSeek V3,DeepSeek,efficiency,0.2,0.77,0.3425,163840
+x-ai/grok-3,Grok 3,xAI,frontier,0.3,0.5,0.35,131072
+x-ai/grok-3-mini,Grok 3 Mini,xAI,efficiency,0.3,0.5,0.35,131072
+mistralai/mistral-large,Mistral Large,Mistral,frontier,0.5,1.5,0.75,262144
+google/gemini-2.5-flash,Gemini 2.5 Flash,Google,efficiency,0.3,2.5,0.85,32768
+deepseek/deepseek-r1,DeepSeek R1,DeepSeek,reasoning,0.45,2.15,0.875,163840
+amazon/nova-pro-v1,Nova Pro,Amazon,efficiency,0.8,3.2,1.4,300000
+anthropic/claude-3.5-haiku,Claude 3.5 Haiku,Anthropic,efficiency,0.8,4.0,1.6,200000
+google/gemini-2.5-pro,Gemini 2.5 Pro,Google,frontier,1.25,10.0,3.4375,1048576
+openai/o4-mini,o4-mini,OpenAI,reasoning,2.0,8.0,3.5,200000
+openai/gpt-4.1,GPT-4.1,OpenAI,frontier,2.0,8.0,3.5,1047576
+openai/gpt-4o,GPT-4o,OpenAI,frontier,2.5,10.0,4.375,128000
+cohere/command-r-plus,Command R+,Cohere,frontier,2.5,10.0,4.375,128000
+anthropic/claude-sonnet-4,Claude Sonnet 4,Anthropic,frontier,3.0,15.0,6.0,1000000
+anthropic/claude-opus-4,Claude Opus 4,Anthropic,frontier,5.0,25.0,10.0,1000000
+openai/o3,o3,OpenAI,reasoning,10.0,40.0,17.5,200000
+openai/o1,o1,OpenAI,reasoning,150.0,600.0,262.5,200000
