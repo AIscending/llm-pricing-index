@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05",
-  "generated_at": "2026-05-01T09:30:08.428668+00:00",
-  "ai_cpi": 21.13,
-  "budget_index": 0.76,
+  "last_updated": "2026-06",
+  "generated_at": "2026-06-01T09:30:08.329704+00:00",
+  "ai_cpi": 22.2,
+  "budget_index": 0.87,
   "cpi_history": [
     {
       "date": "2026-04",
@@ -11,8 +11,13 @@
     },
     {
       "date": "2026-05",
-      "ai_cpi": 21.13,
+      "ai_cpi": 20.45,
       "budget_index": 0.76
+    },
+    {
+      "date": "2026-06",
+      "ai_cpi": 22.2,
+      "budget_index": 0.87
     }
   ],
   "models": [
@@ -82,6 +87,19 @@
       "raw_completion": "0.0000002"
     },
     {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "openrouter_id": "deepseek/deepseek-v4-flash",
+      "display_name": "DeepSeek V4 Flash",
+      "provider": "DeepSeek",
+      "category": "open_source",
+      "price_prompt_per_1m": 0.0983,
+      "price_completion_per_1m": 0.1966,
+      "price_blended_per_1m": 0.1229,
+      "context_length": 1048576,
+      "raw_prompt": "0.0000000983",
+      "raw_completion": "0.0000001966"
+    },
+    {
       "model_id": "google/gemini-2.0-flash-lite-001",
       "openrouter_id": "google/gemini-2.0-flash-lite-001",
       "display_name": "Gemini 2.0 Flash Lite",
@@ -103,7 +121,7 @@
       "price_prompt_per_1m": 0.08,
       "price_completion_per_1m": 0.3,
       "price_blended_per_1m": 0.135,
-      "context_length": 327680,
+      "context_length": 10000000,
       "raw_prompt": "0.00000008",
       "raw_completion": "0.0000003"
     },
@@ -132,19 +150,6 @@
       "context_length": 131072,
       "raw_prompt": "0.0000001",
       "raw_completion": "0.00000032"
-    },
-    {
-      "model_id": "deepseek/deepseek-v4-flash",
-      "openrouter_id": "deepseek/deepseek-v4-flash",
-      "display_name": "DeepSeek V4 Flash",
-      "provider": "DeepSeek",
-      "category": "open_source",
-      "price_prompt_per_1m": 0.14,
-      "price_completion_per_1m": 0.28,
-      "price_blended_per_1m": 0.175,
-      "context_length": 1048576,
-      "raw_prompt": "0.00000014",
-      "raw_completion": "0.00000028"
     },
     {
       "model_id": "google/gemini-2.5-flash-lite",
@@ -181,7 +186,7 @@
       "price_prompt_per_1m": 0.1,
       "price_completion_per_1m": 0.4,
       "price_blended_per_1m": 0.175,
-      "context_length": 1000000,
+      "context_length": 1048576,
       "raw_prompt": "0.0000001",
       "raw_completion": "0.0000004"
     },
@@ -225,32 +230,6 @@
       "raw_completion": "0.0000006"
     },
     {
-      "model_id": "x-ai/grok-4.1-fast",
-      "openrouter_id": "x-ai/grok-4.1-fast",
-      "display_name": "Grok 4.1 Fast",
-      "provider": "xAI",
-      "category": "efficiency",
-      "price_prompt_per_1m": 0.2,
-      "price_completion_per_1m": 0.5,
-      "price_blended_per_1m": 0.275,
-      "context_length": 2000000,
-      "raw_prompt": "0.0000002",
-      "raw_completion": "0.0000005"
-    },
-    {
-      "model_id": "x-ai/grok-4-fast",
-      "openrouter_id": "x-ai/grok-4-fast",
-      "display_name": "Grok 4 Fast",
-      "provider": "xAI",
-      "category": "efficiency",
-      "price_prompt_per_1m": 0.2,
-      "price_completion_per_1m": 0.5,
-      "price_blended_per_1m": 0.275,
-      "context_length": 2000000,
-      "raw_prompt": "0.0000002",
-      "raw_completion": "0.0000005"
-    },
-    {
       "model_id": "deepseek/deepseek-v3.2",
       "openrouter_id": "deepseek/deepseek-v3.2",
       "display_name": "DeepSeek V3.2",
@@ -272,22 +251,9 @@
       "price_prompt_per_1m": 0.29,
       "price_completion_per_1m": 0.29,
       "price_blended_per_1m": 0.29,
-      "context_length": 32768,
+      "context_length": 128000,
       "raw_prompt": "0.00000029",
       "raw_completion": "0.00000029"
-    },
-    {
-      "model_id": "deepseek/deepseek-chat-v3.1",
-      "openrouter_id": "deepseek/deepseek-chat-v3.1",
-      "display_name": "DeepSeek V3.1",
-      "provider": "DeepSeek",
-      "category": "open_source",
-      "price_prompt_per_1m": 0.15,
-      "price_completion_per_1m": 0.75,
-      "price_blended_per_1m": 0.3,
-      "context_length": 32768,
-      "raw_prompt": "0.00000015",
-      "raw_completion": "0.00000075"
     },
     {
       "model_id": "deepseek/deepseek-v3.2-exp",
@@ -316,22 +282,9 @@
       "raw_completion": "0.00000077"
     },
     {
-      "model_id": "x-ai/grok-3-mini",
-      "openrouter_id": "x-ai/grok-3-mini",
-      "display_name": "Grok 3 Mini",
-      "provider": "xAI",
-      "category": "efficiency",
-      "price_prompt_per_1m": 0.3,
-      "price_completion_per_1m": 0.5,
-      "price_blended_per_1m": 0.35,
-      "context_length": 131072,
-      "raw_prompt": "0.0000003",
-      "raw_completion": "0.0000005"
-    },
-    {
-      "model_id": "deepseek/deepseek-v3.1-terminus",
-      "openrouter_id": "deepseek/deepseek-v3.1-terminus",
-      "display_name": "DeepSeek V3.1 Terminus",
+      "model_id": "deepseek/deepseek-chat-v3.1",
+      "openrouter_id": "deepseek/deepseek-chat-v3.1",
+      "display_name": "DeepSeek V3.1",
       "provider": "DeepSeek",
       "category": "open_source",
       "price_prompt_per_1m": 0.21,
@@ -347,12 +300,25 @@
       "display_name": "Mistral Small 3.1 24B",
       "provider": "Mistral",
       "category": "efficiency",
-      "price_prompt_per_1m": 0.35,
-      "price_completion_per_1m": 0.56,
-      "price_blended_per_1m": 0.4025,
+      "price_prompt_per_1m": 0.351,
+      "price_completion_per_1m": 0.555,
+      "price_blended_per_1m": 0.402,
       "context_length": 128000,
-      "raw_prompt": "0.00000035",
-      "raw_completion": "0.00000056"
+      "raw_prompt": "0.000000351",
+      "raw_completion": "0.000000555"
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "openrouter_id": "deepseek/deepseek-v3.1-terminus",
+      "display_name": "DeepSeek V3.1 Terminus",
+      "provider": "DeepSeek",
+      "category": "open_source",
+      "price_prompt_per_1m": 0.27,
+      "price_completion_per_1m": 0.95,
+      "price_blended_per_1m": 0.44,
+      "context_length": 163840,
+      "raw_prompt": "0.00000027",
+      "raw_completion": "0.00000095"
     },
     {
       "model_id": "openai/gpt-5.4-nano",
@@ -368,19 +334,6 @@
       "raw_completion": "0.00000125"
     },
     {
-      "model_id": "x-ai/grok-code-fast-1",
-      "openrouter_id": "x-ai/grok-code-fast-1",
-      "display_name": "Grok Code Fast 1",
-      "provider": "xAI",
-      "category": "efficiency",
-      "price_prompt_per_1m": 0.2,
-      "price_completion_per_1m": 1.5,
-      "price_blended_per_1m": 0.525,
-      "context_length": 256000,
-      "raw_prompt": "0.0000002",
-      "raw_completion": "0.0000015"
-    },
-    {
       "model_id": "deepseek/deepseek-v4-pro",
       "openrouter_id": "deepseek/deepseek-v4-pro",
       "display_name": "DeepSeek V4 Pro",
@@ -394,17 +347,17 @@
       "raw_completion": "0.00000087"
     },
     {
-      "model_id": "deepseek/deepseek-v3.2-speciale",
-      "openrouter_id": "deepseek/deepseek-v3.2-speciale",
-      "display_name": "DeepSeek V3.2 Speciale",
-      "provider": "DeepSeek",
-      "category": "open_source",
-      "price_prompt_per_1m": 0.4,
-      "price_completion_per_1m": 1.2,
-      "price_blended_per_1m": 0.6,
-      "context_length": 163840,
-      "raw_prompt": "0.0000004",
-      "raw_completion": "0.0000012"
+      "model_id": "google/gemini-3.1-flash-lite",
+      "openrouter_id": "google/gemini-3.1-flash-lite",
+      "display_name": "Gemini 3.1 Flash Lite",
+      "provider": "Google",
+      "category": "efficiency",
+      "price_prompt_per_1m": 0.25,
+      "price_completion_per_1m": 1.5,
+      "price_blended_per_1m": 0.5625,
+      "context_length": 1048576,
+      "raw_prompt": "0.00000025",
+      "raw_completion": "0.0000015"
     },
     {
       "model_id": "openai/gpt-5-mini",
@@ -519,7 +472,7 @@
       "price_prompt_per_1m": 0.5,
       "price_completion_per_1m": 3.0,
       "price_blended_per_1m": 1.125,
-      "context_length": 65536,
+      "context_length": 131072,
       "raw_prompt": "0.0000005",
       "raw_completion": "0.000003"
     },
@@ -545,9 +498,22 @@
       "price_prompt_per_1m": 0.7,
       "price_completion_per_1m": 2.5,
       "price_blended_per_1m": 1.15,
-      "context_length": 64000,
+      "context_length": 163840,
       "raw_prompt": "0.0000007",
       "raw_completion": "0.0000025"
+    },
+    {
+      "model_id": "x-ai/grok-build-0.1",
+      "openrouter_id": "x-ai/grok-build-0.1",
+      "display_name": "Grok Build 0.1",
+      "provider": "xAI",
+      "category": "efficiency",
+      "price_prompt_per_1m": 1.0,
+      "price_completion_per_1m": 2.0,
+      "price_blended_per_1m": 1.25,
+      "context_length": 256000,
+      "raw_prompt": "0.000001",
+      "raw_completion": "0.000002"
     },
     {
       "model_id": "amazon/nova-pro-v1",
@@ -667,6 +633,19 @@
       "raw_completion": "0.000005"
     },
     {
+      "model_id": "mistralai/mistral-medium-3-5",
+      "openrouter_id": "mistralai/mistral-medium-3-5",
+      "display_name": "Mistral Medium 3.5",
+      "provider": "Mistral",
+      "category": "frontier",
+      "price_prompt_per_1m": 1.5,
+      "price_completion_per_1m": 7.5,
+      "price_blended_per_1m": 3.0,
+      "context_length": 262144,
+      "raw_prompt": "0.0000015",
+      "raw_completion": "0.0000075"
+    },
+    {
       "model_id": "mistralai/mistral-large",
       "openrouter_id": "mistralai/mistral-large",
       "display_name": "Mistral Large",
@@ -678,6 +657,19 @@
       "context_length": 128000,
       "raw_prompt": "0.000002",
       "raw_completion": "0.000006"
+    },
+    {
+      "model_id": "google/gemini-3.5-flash",
+      "openrouter_id": "google/gemini-3.5-flash",
+      "display_name": "Gemini 3.5 Flash",
+      "provider": "Google",
+      "category": "efficiency",
+      "price_prompt_per_1m": 1.5,
+      "price_completion_per_1m": 9.0,
+      "price_blended_per_1m": 3.375,
+      "context_length": 1048576,
+      "raw_prompt": "0.0000015",
+      "raw_completion": "0.000009"
     },
     {
       "model_id": "openai/gpt-5.1",
@@ -862,32 +854,6 @@
       "raw_completion": "0.000015"
     },
     {
-      "model_id": "x-ai/grok-4",
-      "openrouter_id": "x-ai/grok-4",
-      "display_name": "Grok 4",
-      "provider": "xAI",
-      "category": "frontier",
-      "price_prompt_per_1m": 3.0,
-      "price_completion_per_1m": 15.0,
-      "price_blended_per_1m": 6.0,
-      "context_length": 256000,
-      "raw_prompt": "0.000003",
-      "raw_completion": "0.000015"
-    },
-    {
-      "model_id": "x-ai/grok-3",
-      "openrouter_id": "x-ai/grok-3",
-      "display_name": "Grok 3",
-      "provider": "xAI",
-      "category": "frontier",
-      "price_prompt_per_1m": 3.0,
-      "price_completion_per_1m": 15.0,
-      "price_blended_per_1m": 6.0,
-      "context_length": 131072,
-      "raw_prompt": "0.000003",
-      "raw_completion": "0.000015"
-    },
-    {
       "model_id": "anthropic/claude-sonnet-4",
       "openrouter_id": "anthropic/claude-sonnet-4",
       "display_name": "Claude Sonnet 4",
@@ -901,17 +867,17 @@
       "raw_completion": "0.000015"
     },
     {
-      "model_id": "anthropic/claude-3.7-sonnet",
-      "openrouter_id": "anthropic/claude-3.7-sonnet",
-      "display_name": "Claude 3.7 Sonnet",
+      "model_id": "anthropic/claude-opus-4.8",
+      "openrouter_id": "anthropic/claude-opus-4.8",
+      "display_name": "Claude Opus 4.8",
       "provider": "Anthropic",
       "category": "frontier",
-      "price_prompt_per_1m": 3.0,
-      "price_completion_per_1m": 15.0,
-      "price_blended_per_1m": 6.0,
-      "context_length": 200000,
-      "raw_prompt": "0.000003",
-      "raw_completion": "0.000015"
+      "price_prompt_per_1m": 5.0,
+      "price_completion_per_1m": 25.0,
+      "price_blended_per_1m": 10.0,
+      "context_length": 1000000,
+      "raw_prompt": "0.000005",
+      "raw_completion": "0.000025"
     },
     {
       "model_id": "anthropic/claude-opus-4.7",
@@ -953,6 +919,19 @@
       "raw_completion": "0.000025"
     },
     {
+      "model_id": "openai/gpt-chat-latest",
+      "openrouter_id": "openai/gpt-chat-latest",
+      "display_name": "GPT Chat Latest",
+      "provider": "OpenAI",
+      "category": "frontier",
+      "price_prompt_per_1m": 5.0,
+      "price_completion_per_1m": 30.0,
+      "price_blended_per_1m": 11.25,
+      "context_length": 400000,
+      "raw_prompt": "0.000005",
+      "raw_completion": "0.00003"
+    },
+    {
       "model_id": "openai/gpt-5.5",
       "openrouter_id": "openai/gpt-5.5",
       "display_name": "GPT-5.5",
@@ -977,6 +956,19 @@
       "context_length": 200000,
       "raw_prompt": "0.00001",
       "raw_completion": "0.00004"
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.8-fast",
+      "openrouter_id": "anthropic/claude-opus-4.8-fast",
+      "display_name": "Claude Opus 4.8 (Fast)",
+      "provider": "Anthropic",
+      "category": "frontier",
+      "price_prompt_per_1m": 10.0,
+      "price_completion_per_1m": 50.0,
+      "price_blended_per_1m": 20.0,
+      "context_length": 1000000,
+      "raw_prompt": "0.00001",
+      "raw_completion": "0.00005"
     },
     {
       "model_id": "openai/o1",
@@ -1055,6 +1047,19 @@
       "context_length": 400000,
       "raw_prompt": "0.000021",
       "raw_completion": "0.000168"
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.7-fast",
+      "openrouter_id": "anthropic/claude-opus-4.7-fast",
+      "display_name": "Claude Opus 4.7 (Fast)",
+      "provider": "Anthropic",
+      "category": "frontier",
+      "price_prompt_per_1m": 30.0,
+      "price_completion_per_1m": 150.0,
+      "price_blended_per_1m": 60.0,
+      "context_length": 1000000,
+      "raw_prompt": "0.00003",
+      "raw_completion": "0.00015"
     },
     {
       "model_id": "anthropic/claude-opus-4.6-fast",
@@ -1196,8 +1201,11 @@
     "frequency": "Monthly (1st of each month)"
   },
   "chart_urls": {
-    "pricing_trends.png": "https://aiscending.com/wp-content/uploads/2026/05/pricing_trends.png",
-    "pricing_current.png": "https://aiscending.com/wp-content/uploads/2026/05/pricing_current.png",
-    "pricing_categories.png": "https://aiscending.com/wp-content/uploads/2026/05/pricing_categories.png"
+    "pricing_trends.png": "https://aiscending.com/wp-content/uploads/2026/06/pricing_trends.png",
+    "pricing_current.png": "https://aiscending.com/wp-content/uploads/2026/06/pricing_current.png",
+    "pricing_categories.png": "https://aiscending.com/wp-content/uploads/2026/06/pricing_categories.png"
+  },
+  "chart_svgs": {
+    "pricing_categories": "<svg viewBox=\"0 0 1100 660\" xmlns=\"http://www.w3.org/2000/svg\" class=\"aipi-strip-svg\" role=\"img\" aria-label=\"AI pricing by category strip plot for 2026-06\">\n<title>AI pricing by category - 2026-06</title>\n<desc>Strip plot of AI model prices across four categories on a log scale. Each dot is a model. Hover for model name and price.</desc>\n<style>.aipi-strip-svg{font-family:system-ui,-apple-system,sans-serif;}.aipi-svg-title{font-size:18px;font-weight:600;fill:#fff;}.aipi-svg-subtitle{font-size:12px;fill:#8899AA;}.aipi-svg-axis{stroke:#1E2A36;stroke-width:1;}.aipi-svg-grid{stroke:#1E2A36;stroke-width:0.5;stroke-dasharray:2,3;}.aipi-svg-axis-label{font-size:11px;fill:#8899AA;}.aipi-svg-anchor{font-size:11px;fill:#CCDDEE;font-weight:500;}.aipi-svg-median{font-size:11px;font-weight:600;}.aipi-svg-cat{font-size:14px;font-weight:600;fill:#fff;}.aipi-svg-cat-meta{font-size:11px;fill:#8899AA;}.aipi-svg-legend{font-size:11px;fill:#CCDDEE;}.aipi-svg-watermark{font-size:10px;fill:#5F6D7E;}.aipi-dot{transition:r 0.15s ease, stroke-width 0.15s ease;cursor:default;}.aipi-dot:hover{stroke:#fff;stroke-width:2;}</style>\n<text x=\"550.0\" y=\"32\" text-anchor=\"middle\" class=\"aipi-svg-title\">AI pricing by category - 2026-06</text>\n<text x=\"550.0\" y=\"52\" text-anchor=\"middle\" class=\"aipi-svg-subtitle\">Each dot is a model - log scale - shaded band = middle 50% - line = median - hover any dot for details</text>\n<line x1=\"90\" y1=\"540\" x2=\"1060\" y2=\"540\" class=\"aipi-svg-axis\"/>\n<line x1=\"90\" y1=\"80\" x2=\"90\" y2=\"540\" class=\"aipi-svg-axis\"/>\n<line x1=\"90\" y1=\"504.2\" x2=\"1060\" y2=\"504.2\" class=\"aipi-svg-grid\"/>\n<text x=\"82\" y=\"508.2\" text-anchor=\"end\" class=\"aipi-svg-axis-label\">$0.1</text>\n<line x1=\"90\" y1=\"385.2\" x2=\"1060\" y2=\"385.2\" class=\"aipi-svg-grid\"/>\n<text x=\"82\" y=\"389.2\" text-anchor=\"end\" class=\"aipi-svg-axis-label\">$1</text>\n<line x1=\"90\" y1=\"266.2\" x2=\"1060\" y2=\"266.2\" class=\"aipi-svg-grid\"/>\n<text x=\"82\" y=\"270.2\" text-anchor=\"end\" class=\"aipi-svg-axis-label\">$10</text>\n<line x1=\"90\" y1=\"147.3\" x2=\"1060\" y2=\"147.3\" class=\"aipi-svg-grid\"/>\n<text x=\"82\" y=\"151.3\" text-anchor=\"end\" class=\"aipi-svg-axis-label\">$100</text>\n<rect x=\"156.2\" y=\"373.7\" width=\"110\" height=\"101.6\" fill=\"#3B82F6\" fill-opacity=\"0.10\"/>\n<line x1=\"162.2\" y1=\"403.6\" x2=\"260.2\" y2=\"403.6\" stroke=\"#3B82F6\" stroke-width=\"2.5\" stroke-opacity=\"0.75\"/>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"532.8\" r=\"5\" fill=\"#3B82F6\" fill-opacity=\"1.0\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Mistral Small 3 - $0.058 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"529.5\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nova Micro 1.0 - $0.061 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"526.0\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Command R7B (12-2024) - $0.066 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"501.7\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nova Lite 1.0 - $0.105 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"501.1\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Mistral Small 3.2 24B - $0.106 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"490.2\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 2.0 Flash Lite - $0.131 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"487.7\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>GPT-5 Nano - $0.138 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"179.2\" cy=\"475.3\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 2.5 Flash Lite - $0.175 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"475.3\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>GPT-4.1 Nano - $0.175 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"243.2\" cy=\"475.3\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 2.0 Flash - $0.175 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"179.2\" cy=\"454.3\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Mistral Small 4 - $0.263 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"243.2\" cy=\"454.3\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Command R (08-2024) - $0.263 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"432.3\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Mistral Small 3.1 24B - $0.402 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"425.1\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>GPT-5.4 Nano - $0.463 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"414.9\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 3.1 Flash Lite - $0.562 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"404.6\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>GPT-5 Mini - $0.688 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"403.6\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>GPT-4.1 Mini - $0.7 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"179.2\" cy=\"396.7\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Mistral Medium 3.1 - $0.8 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"243.2\" cy=\"396.7\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Mistral Medium 3 - $0.8 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"179.2\" cy=\"393.6\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nova 2 Lite - $0.85 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"393.6\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nano Banana (Gemini 2.5 Flash Image) - $0.85 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"243.2\" cy=\"393.6\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 2.5 Flash - $0.85 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"179.2\" cy=\"379.1\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nano Banana 2 (Gemini 3.1 Flash Image Preview) - $1.12 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"243.2\" cy=\"379.1\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 3 Flash Preview - $1.12 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"373.7\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Grok Build 0.1 - $1.25 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"367.8\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nova Pro 1.0 - $1.4 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"360.9\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Claude 3.5 Haiku - $1.6 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"358.2\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>GPT-5.4 Mini - $1.69 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"349.4\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Claude Haiku 4.5 - $2 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"322.4\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 3.5 Flash - $3.38 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"211.2\" cy=\"321.4\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 2.5 Pro - $3.44 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"179.2\" cy=\"307.5\" r=\"5\" fill=\"#3B82F6\" fill-opacity=\"1.0\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Gemini 3.1 Pro Preview - $4.5 per 1M tokens (Efficiency)</title></circle>\n<circle class=\"aipi-dot\" cx=\"243.2\" cy=\"307.5\" r=\"3.5\" fill=\"#3B82F6\" fill-opacity=\"0.6\" stroke=\"#3B82F6\" stroke-width=\"0.5\"><title>Nano Banana Pro (Gemini 3 Pro Image Preview) - $4.5 per 1M tokens (Efficiency)</title></circle>\n<text x=\"211.2\" y=\"552.8\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$0.058 - Mistral Small 3</text>\n<text x=\"211.2\" y=\"295.5\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$4.50 - Gemini 3.1 Pro Preview</text>\n<text x=\"268.2\" y=\"407.6\" text-anchor=\"start\" fill=\"#3B82F6\" class=\"aipi-svg-median\">median $0.7</text>\n<text x=\"211.2\" y=\"568.0\" text-anchor=\"middle\" class=\"aipi-svg-cat\">Efficiency</text>\n<text x=\"211.2\" y=\"586.0\" text-anchor=\"middle\" class=\"aipi-svg-cat-meta\">n=33</text>\n<rect x=\"398.8\" y=\"438.7\" width=\"110\" height=\"42.8\" fill=\"#F97316\" fill-opacity=\"0.10\"/>\n<line x1=\"404.8\" y1=\"446.6\" x2=\"502.8\" y2=\"446.6\" stroke=\"#F97316\" stroke-width=\"2.5\" stroke-opacity=\"0.75\"/>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"493.5\" r=\"5\" fill=\"#F97316\" fill-opacity=\"1.0\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V4 Flash - $0.123 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"488.7\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>Llama 4 Scout - $0.135 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"481.5\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>Llama 3.3 70B Instruct - $0.155 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"454.3\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>Llama 4 Maverick - $0.263 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"450.3\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V3.2 - $0.283 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"446.6\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V3.2 Exp - $0.305 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"440.6\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V3 0324 - $0.343 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"438.7\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V3.1 - $0.355 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"427.6\" r=\"3.5\" fill=\"#F97316\" fill-opacity=\"0.6\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V3.1 Terminus - $0.44 per 1M tokens (Open source)</title></circle>\n<circle class=\"aipi-dot\" cx=\"453.8\" cy=\"416.7\" r=\"5\" fill=\"#F97316\" fill-opacity=\"1.0\" stroke=\"#F97316\" stroke-width=\"0.5\"><title>DeepSeek V4 Pro - $0.544 per 1M tokens (Open source)</title></circle>\n<text x=\"453.8\" y=\"513.5\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$0.123 - DeepSeek V4 Flash</text>\n<text x=\"453.8\" y=\"404.7\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$0.544 - DeepSeek V4 Pro</text>\n<text x=\"510.8\" y=\"450.6\" text-anchor=\"start\" fill=\"#F97316\" class=\"aipi-svg-median\">median $0.305</text>\n<text x=\"453.8\" y=\"568.0\" text-anchor=\"middle\" class=\"aipi-svg-cat\">Open source</text>\n<text x=\"453.8\" y=\"586.0\" text-anchor=\"middle\" class=\"aipi-svg-cat-meta\">n=10</text>\n<rect x=\"641.2\" y=\"237.3\" width=\"110\" height=\"114.1\" fill=\"#8B5CF6\" fill-opacity=\"0.10\"/>\n<line x1=\"647.2\" y1=\"351.4\" x2=\"745.2\" y2=\"351.4\" stroke=\"#8B5CF6\" stroke-width=\"2.5\" stroke-opacity=\"0.75\"/>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"449.2\" r=\"5\" fill=\"#8B5CF6\" fill-opacity=\"1.0\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>R1 Distill Qwen 32B - $0.29 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"401.8\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>R1 Distill Llama 70B - $0.725 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"378.0\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>R1 - $1.15 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"664.2\" cy=\"351.4\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o4 Mini High - $1.93 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"685.6\" cy=\"351.4\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o4 Mini - $1.93 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"706.9\" cy=\"351.4\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o3 Mini High - $1.93 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"728.2\" cy=\"351.4\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o3 Mini - $1.93 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"664.2\" cy=\"320.5\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o4 Mini Deep Research - $3.5 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"728.2\" cy=\"320.5\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o3 - $3.5 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"237.3\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o3 Deep Research - $17.5 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"216.4\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o1 - $26.25 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"201.5\" r=\"3.5\" fill=\"#8B5CF6\" fill-opacity=\"0.6\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o3 Pro - $35 per 1M tokens (Reasoning)</title></circle>\n<circle class=\"aipi-dot\" cx=\"696.2\" cy=\"97.4\" r=\"5\" fill=\"#8B5CF6\" fill-opacity=\"1.0\" stroke=\"#8B5CF6\" stroke-width=\"0.5\"><title>o1-pro - $262.5 per 1M tokens (Reasoning)</title></circle>\n<text x=\"696.2\" y=\"469.2\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$0.29 - R1 Distill Qwen 32B</text>\n<text x=\"696.2\" y=\"85.4\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$262.50 - o1-pro</text>\n<text x=\"753.2\" y=\"355.4\" text-anchor=\"start\" fill=\"#8B5CF6\" class=\"aipi-svg-median\">median $1.93</text>\n<text x=\"696.2\" y=\"568.0\" text-anchor=\"middle\" class=\"aipi-svg-cat\">Reasoning</text>\n<text x=\"696.2\" y=\"586.0\" text-anchor=\"middle\" class=\"aipi-svg-cat-meta\">n=13</text>\n<rect x=\"883.8\" y=\"209.5\" width=\"110\" height=\"94.6\" fill=\"#00D4BB\" fill-opacity=\"0.10\"/>\n<line x1=\"889.8\" y1=\"266.2\" x2=\"987.8\" y2=\"266.2\" stroke=\"#00D4BB\" stroke-width=\"2.5\" stroke-opacity=\"0.75\"/>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"362.1\" r=\"5\" fill=\"#00D4BB\" fill-opacity=\"1.0\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Grok 4.3 - $1.56 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"328.4\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Mistral Medium 3.5 - $3 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"328.4\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Mistral Large - $3 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"321.4\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.1 - $3.44 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"321.4\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5 - $3.44 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"320.5\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-4.1 - $3.5 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"308.9\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Command R+ (08-2024) - $4.38 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"304.0\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.2 - $4.81 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"302.0\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Nova Premier 1.0 - $5 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"296.0\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.4 - $5.62 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"292.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Sonnet 4.6 - $6 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"292.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Sonnet 4.5 - $6 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"292.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Sonnet 4 - $6 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"266.2\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.8 - $10 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"928.1\" cy=\"266.2\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.7 - $10 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"949.4\" cy=\"266.2\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.6 - $10 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"266.2\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.5 - $10 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"260.1\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT Chat Latest - $11.25 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"260.1\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.5 - $11.25 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"230.4\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.8 (Fast) - $20 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"209.5\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.1 - $30 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"209.5\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4 - $30 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"193.0\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5 Pro - $41.25 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"938.8\" cy=\"175.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.2 Pro - $57.75 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"173.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.7 (Fast) - $60 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"173.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>Claude Opus 4.6 (Fast) - $60 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"906.8\" cy=\"167.6\" r=\"5\" fill=\"#00D4BB\" fill-opacity=\"1.0\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.5 Pro - $67.5 per 1M tokens (Frontier)</title></circle>\n<circle class=\"aipi-dot\" cx=\"970.8\" cy=\"167.6\" r=\"3.5\" fill=\"#00D4BB\" fill-opacity=\"0.6\" stroke=\"#00D4BB\" stroke-width=\"0.5\"><title>GPT-5.4 Pro - $67.5 per 1M tokens (Frontier)</title></circle>\n<text x=\"938.8\" y=\"382.1\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$1.56 - Grok 4.3</text>\n<text x=\"938.8\" y=\"155.6\" text-anchor=\"middle\" class=\"aipi-svg-anchor\">$67.50 - GPT-5.5 Pro</text>\n<text x=\"995.8\" y=\"270.2\" text-anchor=\"start\" fill=\"#00D4BB\" class=\"aipi-svg-median\">median $10.00</text>\n<text x=\"938.8\" y=\"568.0\" text-anchor=\"middle\" class=\"aipi-svg-cat\">Frontier</text>\n<text x=\"938.8\" y=\"586.0\" text-anchor=\"middle\" class=\"aipi-svg-cat-meta\">n=28</text>\n<g transform=\"translate(100,94)\">\n<circle cx=\"6\" cy=\"6\" r=\"4\" fill=\"#8899AA\"/>\n<text x=\"18\" y=\"10\" class=\"aipi-svg-legend\">Each dot = one model</text>\n<rect x=\"0\" y=\"22\" width=\"12\" height=\"9\" fill=\"#8899AA\" fill-opacity=\"0.20\"/>\n<text x=\"18\" y=\"32\" class=\"aipi-svg-legend\">Middle 50% (Q1-Q3)</text>\n<line x1=\"0\" y1=\"50\" x2=\"12\" y2=\"50\" stroke=\"#8899AA\" stroke-width=\"2.5\"/>\n<text x=\"18\" y=\"54\" class=\"aipi-svg-legend\">Median</text>\n</g>\n<text x=\"1088\" y=\"650\" text-anchor=\"end\" class=\"aipi-svg-watermark\">aiscending.com</text>\n</svg>"
   }
 }
